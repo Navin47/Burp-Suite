@@ -5,16 +5,15 @@
 	**Download Burp Loader files. Then Follow Below Steps for Activation**
 		--> https://github.com/SNGWN/Burp-Loader/archive/main.zip
 	**If using in Windows 10, Download and Install Java and JDK**
-		**For Java** --> https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244068_89d678f2be164786b292527658ca1605
-		**For JDK**  --> https://www.oracle.com/in/java/technologies/javase-jdk15-downloads.html
-
+		**For JDK**  --> https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html
+                           !!!! Install    Java SE Development Kit 15 only !!!!
 ##################################** Execution and Activation **################################
 	
 	**1. Place all files in 1 folder**
 		For Example lets take as --> C:\Users\Siddharth\Downloads\burp-suite\
 	----------------------------------------------
-	**2.1 Run This Command for Windows in CMD Prompt.**
-		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:'C:\Users\siddh\Downloads\burp-suite\loader.jar' -noverify -jar 'C:\Users\Siddharth\Downloads\burp-suite\burpsuite_pro_v2021.2.1.jar'
+	**2.1 Run This Command for Windows in CMD Prompt.**  (use your path where folder located)
+		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"C:\Users\siddh\Downloads\burp-suite\loader.jar" -noverify -jar "C:\Users\Siddharth\Downloads\burp-suite\burpsuite_pro_v2021.2.1.jar"
 	**2.2 Run this command for Linux in Terminal. Suppose Your files are in /home/Siddharth/Downloads/burp-suite/**
 		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/Siddharth/Downloads/burp-suite/loader.jar -noverify -jar /home/Siddharth/Downloads/burp-suite/burpsuite_pro_v2021.2.1.jar
 	----------------------------------------------
