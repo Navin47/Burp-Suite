@@ -1,4 +1,4 @@
-##################################** Prequisites **#############################################
+##################################**      Prequisites    **#############################################
 
 	**Download .jar file for Burp Suite Pro from**
 		--> https://portswigger.net/burp/releases/download?product=pro&version=2021.7&type=Jar
